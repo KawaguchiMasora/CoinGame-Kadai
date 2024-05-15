@@ -19,7 +19,7 @@ public class Point : MonoBehaviour
         }
         if (other.CompareTag("Point"))
         {
-            ObjectSponeSpace canUseCoinScript = GameObject.FindObjectOfType<ObjectSponeSpace>();
+            SpawnObjectinspace canUseCoinScript = GameObject.FindObjectOfType<SpawnObjectinspace>();
             canUseCoinScript.Life++;
             Destroy(gameObject);
         

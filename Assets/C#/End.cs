@@ -13,7 +13,7 @@ public class End : MonoBehaviour
     }
     private void Update()
     {
-        ObjectSponeSpace canUseCoinScript = GameObject.FindObjectOfType<ObjectSponeSpace>();
+        SpawnObjectinspace canUseCoinScript = GameObject.FindObjectOfType<SpawnObjectinspace>();
         Debug.Log(canUseCoinScript.Life);
          if (canUseCoinScript.Life == 0)
          {
