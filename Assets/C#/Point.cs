@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Point : MonoBehaviour
 {
-    public CanUseCoin canUseCoinScript;
+// public SpawnObjectinspace canUseCoinScript;
     private Transform platform; // 台のTransformコンポーネント
     void OnTriggerEnter(Collider other)
     {
